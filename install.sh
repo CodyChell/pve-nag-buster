@@ -48,7 +48,7 @@ EOF
 # fetch the post-install patch script, patches license nag and switches to pve-no-subscription repository as needed
 
 if true ; then
-  wget https://raw.githubusercontent.com/foundObjects/pve-nag-buster/master/pve-nag-buster.sh \
+  wget https://github.com/CodyChell/pve-nag-buster/blob/master/pve-nag-buster.sh \
       -O "/usr/share/pve-nag-buster.sh" && \
       chmod +x "/usr/share/pve-nag-buster.sh" && \
       /usr/share/pve-nag-buster.sh
